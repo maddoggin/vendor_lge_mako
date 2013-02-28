@@ -64,7 +64,9 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/mako/proprietary/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/mako/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/mako/proprietary/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
     vendor/lge/mako/proprietary/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/lge/mako/proprietary/keystore.msm8960.so:system/lib/hw/keystore.msm8960.so \
     vendor/lge/mako/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/mako/proprietary/libAKM.so:system/lib/libAKM.so \
     vendor/lge/mako/proprietary/libalsautils.so:system/lib/libalsautils.so \
@@ -168,5 +170,10 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/mako/proprietary/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/mako/proprietary/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
+    vendor/lge/mako/proprietary/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/lge/mako/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/lge/mako/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/lge/mako/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/lge/mako/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
 
