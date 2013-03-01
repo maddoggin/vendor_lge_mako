@@ -55,8 +55,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/mako/proprietary/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/mako/proprietary/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/lge/mako/proprietary/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
-    vendor/lge/mako/proprietary/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/lge/mako/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/mako/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/mako/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -64,9 +62,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/mako/proprietary/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/mako/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/mako/proprietary/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
     vendor/lge/mako/proprietary/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/lge/mako/proprietary/keystore.msm8960.so:system/lib/hw/keystore.msm8960.so \
     vendor/lge/mako/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/mako/proprietary/libAKM.so:system/lib/libAKM.so \
     vendor/lge/mako/proprietary/libalsautils.so:system/lib/libalsautils.so \
@@ -158,7 +154,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/mako/proprietary/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/mako/proprietary/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/lge/mako/proprietary/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/lge/mako/proprietary/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/mako/proprietary/libxml.so:system/lib/libxml.so \
